@@ -7,10 +7,10 @@ services:
     startCommand: python bot.py
     repo: https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT.git
     branch: main
-    autoDeploy: false
+    autoDeploy: True
     envVars:
       - key: BOT_TOKEN
-        sync: false
+        sync: 6359064136:AAFvOdaWRAH00lMROZCArt6jp5f8U6Fue0I
       - key: API_ID
         sync: false
       - key: API_HASH
