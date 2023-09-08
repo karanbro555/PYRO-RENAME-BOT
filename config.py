@@ -31,8 +31,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6359064136:AAFvOdaWRAH00lMROZCArt6jp5f8U6Fue0I") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","workmy357")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://workmy357:Hl6dmrlCeJAABoOa@cluster0.rltghpz.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME","renamedoge")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://renamedoge:renamedoge@cluster0.ag4ewhc.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
